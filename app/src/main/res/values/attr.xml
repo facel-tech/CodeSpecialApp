@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText"/>
+    <attr name="accentText"/>
+    <attr name="ordinaryText"/>
+
+    <attr name="ordinaryLayout"/>
+    <attr name="accentLayout"/>
+    <attr name="clickedLayout"/>
+
+    <attr name="ordinaryCard"/>
+    <attr name="accentCard"/>
+    <attr name="clickedCard"/>
+
+    <attr name="ordinaryIcon"/>
+    <attr name="activeIcon"/>
+
+    <attr name="ordinaryButton"/>
+    <attr name="disabledButton"/>
+    <attr name="clickedButton"/>
+
+    <attr name="ordinaryEditTextContent"/>
+    <attr name="ordinaryEditTextHint"/>
+    <attr name="ordinaryEditTextBar"/>
+
+    <attr name="activeEditTextContent"/>
+    <attr name="activeEditTextHint"/>
+    <attr name="activeEditTextBar"/>
+
+    <attr name="activeIndicator"/>
+
+    <attr name="bottomBackgroundItem" format="reference" />
+    <attr name="bottomIconItem" format="reference" />
+    <attr name="bottomTextItem" format="reference" />
+</resources>

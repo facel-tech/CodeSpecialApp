@@ -1,0 +1,71 @@
+<resources>
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/grey900</item>
+        <item name="colorPrimaryDark">@color/grey1000</item>
+        <item name="colorAccent">@color/light_blue600</item>
+        <item name="titleText">@color/grey900</item>
+        <item name="accentText">@color/light_blue600</item>
+        <item name="ordinaryText">@color/grey700</item>
+        <item name="ordinaryLayout">@color/grey50</item>
+        <item name="accentLayout">@color/light_blue600</item>
+        <item name="clickedLayout">@color/grey50</item>
+        <item name="ordinaryCard">@color/white</item>
+        <item name="accentCard">@color/light_blue600</item>
+        <item name="clickedCard">@color/grey100</item>
+        <item name="ordinaryIcon">@color/grey700</item>
+        <item name="activeIcon">@color/light_blue600</item>
+        <item name="ordinaryButton">@color/grey900</item>
+        <item name="disabledButton">@color/grey200</item>
+        <item name="clickedButton">@color/grey400</item>
+        <item name="ordinaryEditTextContent">@color/grey700</item>
+        <item name="ordinaryEditTextHint">@color/grey300</item>
+        <item name="ordinaryEditTextBar">@color/grey700</item>
+        <item name="activeEditTextContent">@color/grey800</item>
+        <item name="activeEditTextHint">@color/grey800</item>
+        <item name="activeEditTextBar">@color/grey800</item>
+        <item name="bottomTextItem">@color/bottom_text_light</item>
+        <item name="bottomBackgroundItem">@color/bottom_back_light</item>
+        <item name="bottomIconItem">@color/bottom_icon_light</item>
+        <item name="activeIndicator">@color/light_blue600</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/grey900</item>
+        <item name="colorPrimaryDark">@color/grey1000</item>
+        <item name="colorAccent">@color/light_blue600</item>
+        <item name="titleText">@color/white</item>
+        <item name="accentText">@color/light_blue600</item>
+        <item name="ordinaryText">@color/grey400</item>
+        <item name="ordinaryLayout">@color/grey800</item>
+        <item name="accentLayout">@color/grey900</item>
+        <item name="clickedLayout">@color/grey700</item>
+        <item name="ordinaryCard">@color/grey900</item>
+        <item name="accentCard">@color/light_blue600</item>
+        <item name="clickedCard">@color/grey800</item>
+        <item name="ordinaryIcon">@color/grey200</item>
+        <item name="activeIcon">@color/light_blue600</item>
+        <item name="ordinaryButton">@color/white</item>
+        <item name="disabledButton">@color/grey200</item>
+        <item name="clickedButton">@color/grey400</item>
+        <item name="ordinaryEditTextContent">@color/grey300</item>
+        <item name="ordinaryEditTextHint">@color/grey600</item>
+        <item name="ordinaryEditTextBar">@color/grey400</item>
+        <item name="activeEditTextContent">@color/white</item>
+        <item name="activeEditTextHint">@color/grey200</item>
+        <item name="activeEditTextBar">@color/white</item>
+        <item name="bottomTextItem">@color/bottom_text_dark</item>
+        <item name="bottomBackgroundItem">@color/bottom_back_dark</item>
+        <item name="bottomIconItem">@color/bottom_icon_dark</item>
+        <item name="activeIndicator">@color/light_blue600</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="colorControlNormal">?ordinaryEditTextContent</item>
+        <item name="colorControlActivated">?activeEditTextContent</item>
+        <item name="colorControlHighlight">?ordinaryEditTextBar</item>
+        <item name="android:textColorHint">?ordinaryEditTextHint</item>
+        <item name="android:textColor">?ordinaryEditTextContent</item>
+    </style>
+</resources>

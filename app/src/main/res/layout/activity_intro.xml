@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/relativeLayoutBase"
+        android:background="?ordinaryLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:fitsSystemWindows="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/collapsingToolbarLayout"
+                    android:background="?ordinaryLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <RelativeLayout
+                        android:id="@+id/relativeLayoutExpansion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:id="@+id/textViewTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="36dp"
+                            android:layout_marginRight="36dp"
+                            android:layout_marginTop="36dp"
+                            android:textColor="?titleText"
+                            android:textSize="36sp" />
+
+                    <TextView
+                            android:id="@+id/textViewDescription"
+                            android:layout_below="@+id/textViewTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="36dp"
+                            android:layout_marginRight="36dp"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginBottom="36dp"
+                            android:textColor="?ordinaryText"
+                            android:textSize="24sp" />
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        app:layout_collapseMode="pin" >
+
+                    <TextView
+                            android:layout_below="@+id/relativeLayoutExpansion"
+                            app:layout_collapseMode="pin"
+                            android:id="@+id/textViewCollapsedTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="36dp"
+                            android:layout_marginRight="36dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="?titleText"
+                            android:textSize="28sp" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+                android:id="@+id/relativeLayoutContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <RelativeLayout
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:textColor="@color/light_blue900"
+                        android:id="@+id/textViewButton"
+                        android:layout_margin="32dp"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>
