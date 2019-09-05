@@ -6,9 +6,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import tech.reface.codespecial.app.MainApp
-import tech.reface.codespecial.presentation.model.actions.Actions
 import tech.reface.codespecial.presentation.view.activity.ViewActivityMain
-import tech.reface.refacelibrary.BroadcastUtils
 import tech.reface.refacelibrary.SecureGesture
 import timber.log.Timber
 

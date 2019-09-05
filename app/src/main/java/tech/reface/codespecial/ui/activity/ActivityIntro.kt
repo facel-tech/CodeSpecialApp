@@ -10,7 +10,6 @@ import onactivityresult.ActivityResult
 import onactivityresult.OnActivityResult
 import tech.reface.codespecial.R
 import tech.reface.codespecial.app.Config
-import tech.reface.codespecial.presentation.model.extensions.onClick
 import tech.reface.codespecial.presentation.presenter.activity.PresenterActivityIntro
 import tech.reface.codespecial.presentation.view.activity.ViewActivityIntro
 import tech.reface.refacelibrary.PermissionsFetcher
@@ -52,7 +51,7 @@ class ActivityIntro: MvpAppCompatActivity(), ViewActivityIntro {
 
     override fun setRightsButton(button: String) {
         textViewButton.text = button
-        textViewButton.onClick {
+        textViewButton.setOnClickListener {
             val permissions = listOf(
                 PermissionsFetcher.GESTURE_DATA_TYPE
             )
